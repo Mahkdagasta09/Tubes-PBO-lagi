@@ -1,0 +1,25 @@
+/*
+ * Empty Stylesheet file.
+ */
+
+.mainFxmlClass {
+
+}
+
+.bar{
+    
+    -fx-background-color: linear-gradient(to bottom right, #4682B4, #00FFFF, #00FA9A);
+	
+}
+
+/*.side_ankerpane{
+    fx-background-color: #00000;
+    -fx-border-color:#00000;
+    -fx-border-width: 2px 2px 2px 2px;
+    -fx-border-radius:50px;
+    -fx-background-radius:20px;
+    -fx-border-style: solid;
+    
+    
+        
+}*/

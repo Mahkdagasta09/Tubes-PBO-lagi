@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="AnchorPane2" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="484.0" prefWidth="869.0" styleClass="bar" stylesheets="@dashboard.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="kelompok9tubes.DashboardController">
+   <children>
+      <Label fx:id="Judul" layoutX="329.0" layoutY="58.0" text="Toko 9 O'ke">
+         <font>
+            <Font name="Trebuchet MS" size="41.0" />
+         </font>
+      </Label>
+      <Label fx:id="Label1" layoutX="30.0" layoutY="164.0" text="Nama Barang">
+         <font>
+            <Font name="Trebuchet MS" size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="Label2" layoutX="29.0" layoutY="211.0" text="Harga Barang">
+         <font>
+            <Font name="Trebuchet MS" size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="Label3" layoutX="29.0" layoutY="242.0" text="Jumlah Beli">
+         <font>
+            <Font name="Trebuchet MS" size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="Label4" layoutX="28.0" layoutY="275.0" text="Jumlah Harga">
+         <font>
+            <Font name="Trebuchet MS" size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="Label5" layoutX="28.0" layoutY="344.0" text="Jumlah Bayar">
+         <font>
+            <Font name="Trebuchet MS" size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="Label6" layoutX="29.0" layoutY="384.0" text="Jumlah Kembalian">
+         <font>
+            <Font name="Trebuchet MS" size="20.0" />
+         </font>
+      </Label>
+          <ComboBox fx:id="Combo" layoutX="227.0" layoutY="161.0" onAction="#ComboActionPerformed" prefHeight="31.0" prefWidth="250.0" />
+      <TextField fx:id="TeksHarga" layoutX="227.0" layoutY="208.0" prefHeight="26.0" prefWidth="250.0" style="-fx-background-color: #FFFFFF;" />
+      <TextField fx:id="TeksBeli" layoutX="227.0" layoutY="242.0" prefHeight="26.0" prefWidth="250.0" style="-fx-background-color: #FFFFFF;" />
+      <TextField fx:id="TeksJumlahharga" layoutX="227.0" layoutY="275.0" prefHeight="26.0" prefWidth="250.0" style="-fx-background-color: #FFFFFF;" />
+      <TextField fx:id="TeksBayar" layoutX="227.0" layoutY="343.0" prefHeight="26.0" prefWidth="250.0" style="-fx-background-color: #FFFFFF;" />
+      <TextField fx:id="TeksKembalian" layoutX="227.0" layoutY="384.0" prefHeight="26.0" prefWidth="250.0" style="-fx-background-color: #FFFFFF;" />
+      <Button fx:id="BtnBatal" layoutX="672.0" layoutY="140.0" mnemonicParsing="false" onAction="#BtnBatalActionPerformed" prefHeight="48.0" prefWidth="137.0" text="Batal" />
+      <Button fx:id="BtnKeluar" layoutX="672.0" layoutY="200.0" mnemonicParsing="false" onAction="#BtnKeluarActionPerformed" prefHeight="48.0" prefWidth="137.0" text="Keluar" />
+      <Button fx:id="BtnHarga" layoutX="672.0" layoutY="264.0" mnemonicParsing="false" onAction="#BtnHargaActionPerformed" prefHeight="48.0" prefWidth="137.0" text="Total Harga" />
+      <Button fx:id="BtnKembalian" layoutX="672.0" layoutY="373.0" mnemonicParsing="false" onAction="#BtnKembalianActionPerformed" prefHeight="48.0" prefWidth="137.0" text="Jumlah Kembalian" />
+   </children>
+</AnchorPane>
